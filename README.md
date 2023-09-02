@@ -8,6 +8,12 @@ This example uses the `<url>` syntax value to created typed custom properties th
 
 Since this is only supported in JS and not CSS, the url is not consistently resolved between the two.
 
-### Chromium bug report
+## Chromium bug report
 
 https://bugs.chromium.org/p/chromium/issues/detail?id=1478472
+
+## Update : I had a typo
+
+Somewhere during tested I mixed up `initialValue` and `initial-value`.
+
+This all just works.
