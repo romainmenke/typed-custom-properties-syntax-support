@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>${bundle}</title>
+
+	<style>
+		@layer base {
+			:where(.box) {
+				width: 100px;
+				height: 100px;
+				background-color: red;
+			}
+		}
+
+		@property --background-image--registered-property {
+			syntax: '<url> | none';
+			inherits: true;
+			initialValue: 'none';
+		}
+	</style>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="box" class="box">
+	</div>
+</body>
+
+</html>
