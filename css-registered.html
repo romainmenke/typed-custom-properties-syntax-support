@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>${bundle}</title>
+	<title>CSS Registered</title>
 
 	<style>
 		@layer base {
@@ -16,9 +16,9 @@
 		}
 
 		@property --background-image--registered-property {
-			syntax: '<url> | none';
+			syntax: '<url>';
 			inherits: true;
-			initialValue: 'none';
+			initialValue: url(./red.png);
 		}
 	</style>
 
